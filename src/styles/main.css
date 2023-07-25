@@ -1,0 +1,381 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-prompt {
+    font-family: 'Prompt', Regular;
+}
+
+.font-inter {
+    font-family: 'Inter', Regular;
+}
+
+.font-podkova{
+    font-family: 'Podkova', Regular;
+}
+
+.font-roboto{
+    font-family: 'Roboto', Regular;
+}
+
+.font-holtwood{
+    font-family: 'Holtwood One SC', Regular;
+}
+/*
+ {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #A8A8A8;
+    outline: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+.but {
+    display: flex;
+}
+
+
+
+header {
+    border: 1px white;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    margin-top: 2%;
+}
+
+.logo {
+    display: flex;
+    margin-top: 1%;
+}
+
+
+
+.but {
+    display: flex;
+}
+
+.logoQR {
+    width: 3.375rem;
+    height: 3.375rem;
+}
+
+h1 {
+    color: white;
+}
+
+.logInBut {
+    border-radius: 30px;
+}
+
+.blackThe {
+    border-radius: 10px;
+} */
+
+
+/* header {
+    margin-top: 1.75rem;
+    text-align: center;
+    width: 100wh;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1 {
+    margin-left: 1rem;
+    color: white;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logoB {
+    margin-left: 1rem;
+    width: 3.375rem;
+    height: 3.375rem;
+    flex-shrink: 0;
+}
+
+li {
+    padding-left: 3.6rem;
+    width: 5.8rem;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul {
+    margin-left: 15rem;
+    display: flex;
+    list-style-type: none;
+}
+
+.menuBar {
+    color: #A8A8A8;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logInBut {
+    margin-top: 0.5rem;
+
+    width: 7rem;
+    height: 2.1875rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #FFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blackThe {
+    margin-top: 0.1rem;
+
+    width: 2.9rem;
+    height: 2.9rem;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.blackTh {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+/*
+body
+
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+}
+
+.body1 {
+    width: 37%;
+    height: 37%;
+    flex-shrink: 0;}
+
+.blockBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 33%;
+    height: 33%;
+}
+
+.textBody {
+    color: #FFF;
+    font-family: Prompt;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+mainBlock2
+
+.mainBlock2 {
+    width: 100%;
+}
+
+.textBlock h2 {
+    width: 52rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Podkova;
+    font-size: 290%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99.8%;
+}
+
+.textBlock {
+    margin: 1%;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.textMain {
+    color: #FFF;
+    font-family: Podkova;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.mainBlock2 {
+    height: 38.625rem;
+    margin-bottom: 0px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #000 84.90%, #2D2D2D 97.40%);
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.carImg {
+    width: 99%;
+    height: 98%;
+    flex-shrink: 0;
+    border: 3px solid #FFF;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    position: absolute;
+    width: 47%;
+    left: 40%;
+    top: 0;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+.container {
+    margin: 4%;
+    width: 50%;
+    transform-style: preserve-3d;
+    display: flex;
+}
+
+#item-1:checked~.cards #song-3,
+#item-2:checked~.cards #song-1,
+#item-3:checked~.cards #song-2 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-2,
+#item-2:checked~.cards #song-3,
+#item-3:checked~.cards #song-1 {
+    transform: translatex(40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-1,
+#item-2:checked~.cards #song-2,
+#item-3:checked~.cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+.divMainBut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.mainBut {
+    text-align: center;
+    width: 20.4375rem;
+    height: 2.9375rem;
+    color: black;
+    background-color: white;
+    font-family: "Holtwood One SC", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 15px;
+}
+
+footer
+
+footer {
+    padding: 0;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    background-color: #2D2D2D;
+}
+
+.imgFoot {
+    padding-top: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imgElemFoot {
+    padding-left: 1rem;
+    width: 2.2rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+}
+
+.pFoot {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05688rem;
+} */
