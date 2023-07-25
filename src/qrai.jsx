@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import axios from 'axios';
 import { Link } from "react-router-dom";
 import Navbar from "./components/nav";
 import logoB from "./img/QRAI.png";
@@ -11,32 +10,6 @@ import twit from './img/twit.svg';
 import "./styles/main.css";
 
 function App2() {
-    const handleUpload = async () => {
-        try {
-            const formData = new FormData();
-            formData.append("prompt", "Cyberpunk city in anime style"); // Replace with your prompt value
-            formData.append("negative_prompt", "ugly, disfigured, low quality, blurry, nsfw"); // Replace with your negative prompt value
-            formData.append("image", mainImage);
-
-            const response = await axios.post("http://localhost:8000/generate_image/", formData, {
-                headers: {
-                    "Content-Type": "multipart/form-data",
-                },
-                responseType: "arraybuffer", // Important: Set the response type to arraybuffer
-            });
-
-            const imageBlob = new Blob([response.data], { type: "image/jpeg" });
-            const imageUrl = URL.createObjectURL(imageBlob);
-
-            // Use imageUrl to display the generated image
-            // For example, you can set it to a state variable and display it in an <img> element
-            // For demonstration purposes, I'm just logging the imageUrl here:
-            console.log(imageUrl);
-        } catch (error) {
-            console.error("Error uploading image:", error.message);
-        }
-    };
-
     const [mainImage, setMainImage] = useState(''); // Replace with the URL of your default image
 
     const handleFileInputChange = (event) => {
